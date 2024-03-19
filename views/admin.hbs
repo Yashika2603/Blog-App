@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+    <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+    <div class="logo">
+        <h1><strong>Blogify</strong></h1>
+        <button id="showPopupButton">Add Blog</button>
+        <a href="/logout" class="logo1"><img src="https://cdn-icons-png.flaticon.com/512/6522/6522516.png" alt="profile"></a>
+        <h3>Admin</h3>
+    </div>
+            <form id="blogForm" action="/addBlog" method="post">
+            <label for="title">Title:</label>
+            <input type="text" id="title" name="title" required><br>
+
+            <label for="content">Content:</label>
+            <textarea id="content" name="content" required></textarea><br>
+
+            <label for="category">Category:</label>
+            <select id="category" name="category" required>
+                <option value="technology">Technology</option>
+                <option value="travel">Travel</option>
+                <option value="food">Food</option>
+                <option value="lifestyle">Lifestyle</option>
+            </select><br>
+
+            <button id="btn" type="submit">Add Blog</button>
+            <button type="button" id="closePopupButton">Close</button>
+        </form>
+    <div id="addApproval">
+        <h1>Admin Dashboard</h1>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="admin.js"> </script>
+</body>
+</html>

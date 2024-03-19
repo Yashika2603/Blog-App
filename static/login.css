@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Indie+Flower&family=Montserrat:wght@100&family=Tilt+Neon&family=Young+Serif&display=swap');
+
+h1{
+    font-size: 5rem;
+    margin-left: 40rem;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    font-size: 2rem;
+    margin-left: 30rem;
+    margin-right: 30rem;
+    margin-bottom: 2rem;
+    border-width: 0.001rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    font-family: 'Young Serif';
+    border-color: rgb(125, 125, 125);
+}
+input::placeholder{
+    font-family: 'Young Serif';
+}
+button{
+    font-size: 2rem;
+    margin-left: 40rem;
+    margin-right: 40rem;
+    margin-bottom: 2rem;
+    border: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 3rem;
+    border-radius: 1.2rem;
+    cursor: pointer;
+    font-family: 'Young Serif';
+    border-color: rgb(125, 125, 125);
+}

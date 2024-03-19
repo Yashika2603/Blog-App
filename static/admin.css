@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Indie+Flower&family=Montserrat:wght@100&family=Tilt+Neon&family=Young+Serif&display=swap');
+
+h3{
+    margin-left: 68rem;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    font-size: 1.8rem;
+    margin-left: -1rem;
+    margin-top: -1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    color: #0f0c0c;
+    font-family: 'Young Serif';
+    background-color: white;
+    z-index: 2;
+}
+.approve{
+    position: absolute;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    background-color: #fdfcfc;
+    color: #333;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 1.2rem;
+    padding: 0.5rem;
+    font-family: 'Young Serif';
+
+}
+.reject{
+    position: absolute;
+    margin-top: 2rem;
+    margin-left: 10rem;
+    background-color: #fdfcfc;
+    color: #333;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 1.2rem;
+    padding: 0.5rem;
+    font-family: 'Young Serif';
+}
+#addApproval .blog{
+    position: relative;
+    border: 0.1rem;
+    border-style: solid;
+    margin-top: 5rem;
+    margin-right: 3rem;
+    padding: 2rem;
+    height: 15rem;
+    width: 80rem;
+    font-size: 1.2rem;
+    border-radius: 2rem;
+    border-color: #d8cfcf;
+    background-color: rgba(240, 202, 189, 0.824);
+    font-family: 'Young Serif';
+    color: #4c4848;
+    
+}
+#addApproval{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10rem;
+    margin-left: 2rem;
+    position: absolute;
+}
+#addApproval h1{
+    font-family: 'Young Serif';
+    font-weight: lighter;
+}
+.logo1 img{
+    height: 2.5rem;
+    width: 2.5rem;
+    margin-top: 2.2rem;
+    margin-left: 77rem;
+    position: absolute;
+}
+#showPopupButton{
+    position: absolute;
+    font-family: 'Montserrat';
+    font-weight: 900;   
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    color: #333333;
+    border: none;
+    font-size: 1.4rem;
+    border-radius: 1rem;
+    margin-top: 2rem;
+    margin-left: 70rem;
+    cursor: pointer;
+}
+.popup-container {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    height: 30rem;
+    width: 20rem;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 5;
+    font-size: 1.5rem;
+    font-family: 'Young Serif';
+}
+
+#blogForm {
+    margin-top: 5rem;
+    margin-left: 30rem;
+    font-size: 1.5rem;
+    border-style: solid;
+    padding: 3rem;
+    display: none;
+    flex-direction: column;
+    z-index: 5;
+    position: fixed;
+    background-color: white;
+}
+
+label {
+    margin-bottom: 8px;
+}
+button{
+    cursor: pointer;
+}
+input,
+textarea,
+select {
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#closePopupButton {
+    background-color: #ccc;
+    color: #333;
+    margin-right: 7rem;
+    margin-left: 7rem;
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 1.2rem;
+    padding: 0.5rem;
+    font-family: 'Young Serif';
+}
+
+#closePopupButton:hover {
+    background-color: #ddd;
+}
+#btn{
+    background-color: #ccc;
+    font-family: 'Young Serif';
+    color: #333;
+    margin-right: 5rem;
+    margin-left: 5rem;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 1.2rem;
+    padding: 0.5rem;
+}
+#btn:hover{
+    background-color: #ddd;
+}

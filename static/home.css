@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Indie+Flower&family=Montserrat:wght@100&family=Tilt+Neon&family=Young+Serif&display=swap');
+
+body{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    margin-left: -1rem;
+    padding-left: 1rem;
+    padding-right: 4rem;
+    margin-top: -1rem;
+}
+.logo{
+    position: absolute;
+    font-size: 2.5rem;
+    margin-left: 40rem;
+    margin-top: -1rem;
+    color: #0f0c0c;
+    font-family: 'Young Serif';
+}
+.nav-link1{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    font-size: 1.7rem;
+    color: #0f0c0c;
+    margin-left: -3rem;
+    padding-right: 1.2rem;
+    cursor: pointer ;
+}
+.nav-link1 li a{
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-weight: 900;   
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    color: #333333;
+}
+.nav-link1 li{
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+.nav-link1 li a:hover{
+    color: rgb(44, 44, 44);
+    background-color: rgb(244, 249, 253);
+    border-radius: 0.8rem;
+}
+.nav-link2{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    font-size: 1.4rem;
+    color: #0f0c0c;
+    margin-left: 65rem;
+    padding-right: 1.2rem;
+    cursor: pointer ;
+}
+.nav-link2 li a{
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-weight: 900;   
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    color: #333333;
+}
+.nav-link2 li{
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+.nav-link2 li a:hover{
+    color: rgb(44, 44, 44);
+    background-color: rgb(244, 249, 253);
+    border-radius: 0.8rem;
+}
+center{
+    position: absolute;
+    margin-left: 11rem;
+    padding: 5rem;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    color: rgb(65, 65, 65);
+    font-size: 1.7rem;
+    font-family: 'Montserrat';
+    margin-top: 12rem;
+    border-radius: 2rem;
+    border: 0.1rem;
+    border-style: solid;
+    border-color: #d8cfcf;
+}
+h3{
+    font-size: 4rem;
+    margin-bottom: -1rem;
+    margin-top: -2rem;
+    font-weight: lighter;
+}
+center p{
+    font-weight: bold;
+}
+#allBlogsContainer .blog{
+    border: 0.1rem;
+    border-style: solid;
+    margin-top: 5rem;
+    margin-right: 3rem;
+    margin-left: 3rem;
+    padding: 2rem;
+    position: static;
+    font-size: 1.2rem;
+    border-bottom-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    border-color: #d8cfcf;
+    background-color: rgba(240, 202, 189, 0.824);
+    font-family: 'Young Serif';
+    color: #4c4848;
+    
+}
+#allBlogsContainer{
+    position: static;
+    margin-top: 45rem;
+    padding: 2rem;
+}
+#allBlogsContainer h4{
+    font-family: 'Young Serif';
+    font-weight: lighter;
+}
